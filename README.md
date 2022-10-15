@@ -40,5 +40,6 @@
 - Make sure docker is is running
 - Navigate to root directory
 - Run `docker compose up -d`
-- If you need to tear down your DB 
-- - run `docker compose down`
+- If you need to tear down your DB
+- - NOTE: this will delete all contents of the db 
+- - run `docker compose down` 
