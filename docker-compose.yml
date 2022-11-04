@@ -1,0 +1,15 @@
+version: "2.1"
+
+services:
+  db:
+    image: postgres:14
+    container_name: animals
+    ports:
+      - "9001:5432"
+    environment:
+      - POSTGRES_USER=pguser
+      - POSTGRES_PASSWORD=pgpass 
+      - POSTGRES_DB=animal-intake
+
+
+      
